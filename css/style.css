@@ -192,16 +192,6 @@ img {
   word-spacing: 0.8px;
 }
 
-li::before {
-  content: "";
-  position: absolute;
-  left: 9px;
-  top: 11px;
-  width: 4.94px;
-  height: 2px;
-  background-color: #000;
-}
-
 .intro__buttons-box {
   display: flex;
   margin-top: 80px;
@@ -282,6 +272,7 @@ li::before {
   flex-direction: column;
   align-items: center;
   margin-right: 30px;
+  text-decoration: none;
 }
 
 .order__steps-item:last-child {
