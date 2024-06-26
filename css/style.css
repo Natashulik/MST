@@ -192,6 +192,16 @@ img {
   word-spacing: 0.8px;
 }
 
+li.intro__list-item::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 11px;
+  width: 4.94px;
+  height: 2px;
+  background-color: #000;
+}
+
 .intro__buttons-box {
   display: flex;
   margin-top: 80px;
